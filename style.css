@@ -1,0 +1,146 @@
+.hero {
+    background-color: #91818A;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+.hero-text {
+    grid-column: 2/ 2;
+    color: #070707;
+    
+  }
+  .profile-pic {
+    width:300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 100%;
+    border-width: 5px;
+    background-color:#aeaec7;
+    
+  }
+  body {
+  
+    background-color:#EBDCCB;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 10px;
+}
+  .qualifications,
+  .experience,
+  .skills {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .qualifications li,
+  .experience li,
+  .skills li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .qualifications h3,
+  .experience h3,
+  .skills h3 {
+    margin: 0;
+  }
+  
+  .qualifications p,
+  .experience p,
+  .skills p {
+    margin: 5px 0;
+  }
+  .experience p:last-child,
+  .skills p:last-child {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    font-style: italic;
+  }
+  
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #contact {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 100px;
+  }
+  
+  .contact-info {
+    grid-column: 1;
+  }
+  .contact-links {
+    margin-top: 200px;
+  }
+  
+  .contact-form {
+    grid-column: 2;
+    border-left: 1px solid #0a0a0a;
+    padding-left: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    grid-column-start: end;
+  }
+  #contact label {
+    display: block;
+    margin-bottom: 5px;
+    margin: 3px;
+  }
+  #contact .input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+   #contact input[type="email"],
+  #contact select,
+  #contact textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #contact button[type="submit"] {
+    display: block;
+    width: 50%;
+    margin-left: 80px;
+    padding: 10px;
+    background-color: #4CAF50;
+    font-size: large;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #contact button[type="submit"]:hover {
+   
+    background-color: #45a049;
+  }
+  .required{
+    /*content: "*";*/
+    color: red;
+    font-size: 15px;
+    margin-left: 0px;
+    
+  }
+
+
