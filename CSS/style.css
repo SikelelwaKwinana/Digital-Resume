@@ -1,3 +1,4 @@
+/********************BANNER***************/
 .hero {
     background-color: #B2A3B5;
     background-size: auto;
@@ -34,7 +35,7 @@
     justify-content: center;
     font-family: cursive;
 }
-
+/***************IMAGE*************/
 .profile-pic {
     max-width: 100%;
     height: auto;
@@ -45,6 +46,7 @@
     background-color: #aeaec7;
 }
 
+/****************BODY**************/
 body {
 
     background-color: #FDFCED;
@@ -70,6 +72,7 @@ h3 {
     font-style: oblique;
 }
 
+/*********************FOOTER & CONTACT SECTION*****************/
 .contact-info {
     font-style: italic;
     margin-left: 0;
@@ -150,20 +153,20 @@ footer {
     background-color: #45a049;
 }
 
+ /****************************Required colour**************************/
 .required {
-    /*content: "*";*/
     color: red;
     font-size: 15px;
     margin-left: 0px;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/***********Small devices************/
 @media (max-width: 400px) {
     .hero-text {
         font-size: x-small;
     }
 
-    .title {
+    .title {labes
         font-size: x-small;
     }
 
@@ -174,7 +177,7 @@ footer {
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/*************Medium devices*****************/
 @media (min-width: 401px) and (max-width: 798px) {
     .hero-text {
         font-size: small;
@@ -189,7 +192,7 @@ footer {
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/***************Large devices*******************/
 @media (min-width: 799px) and (max-width:2000px) {
     .hero img {
         margin-left: 100px;
